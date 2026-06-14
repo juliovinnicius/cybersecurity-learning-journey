@@ -1,5 +1,22 @@
 {
   "current_week": 1,
-  "completed": {},
-  "sessions": []
+  "completed": {
+    "1": [
+      1,
+      2,
+      3
+    ]
+  },
+  "sessions": [
+    {
+      "timestamp": "2026-06-14 15:44",
+      "week": 1,
+      "text": "Definida estrategia de laboratorio leve para Mac com 256 GB, priorizando labs online, Docker pontual e artefatos pequenos."
+    },
+    {
+      "timestamp": "2026-06-14 15:48",
+      "week": 1,
+      "text": "Configurado ambiente equivalente leve: macOS nativo como workstation, Python e Git locais, Docker pontual e labs online no lugar de VM Linux permanente."
+    }
+  ]
 }

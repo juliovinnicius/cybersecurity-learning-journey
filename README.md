@@ -35,6 +35,10 @@ O ambiente principal e um Mac com 256 GB de armazenamento. Por isso, este roadma
 - Markdown, JSON e Python sem dependencias pesadas.
 - Evitar VMs grandes, ISOs, dumps, wordlists gigantes e stacks locais completas.
 
+A estrategia detalhada esta documentada em:
+
+- [lab/storage-strategy.md](./lab/storage-strategy.md)
+
 ## Roadmap
 
 O plano principal esta em:
@@ -84,6 +88,9 @@ python3 study-harness/study.py log "O que foi feito e aprendido"
 .
 ├── README.md
 ├── cybersecurity-roadmap.md
+├── lab/
+│   ├── lab-setup.md
+│   └── storage-strategy.md
 └── study-harness/
     ├── README.md
     ├── study.py
@@ -116,4 +123,3 @@ Este repositorio central mantem o roadmap, o diario, o progresso e as decisoes d
 ## Status
 
 Roadmap iniciado.
-
