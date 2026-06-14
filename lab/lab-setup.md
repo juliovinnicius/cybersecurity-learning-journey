@@ -10,9 +10,12 @@ Definir um ambiente leve para praticar Cyber Security sem consumir muito armazen
 | --- | --- |
 | Sistema | macOS |
 | Arquitetura | ARM64 |
-| Python | Disponivel em `/usr/bin/python3` |
+| Python | Disponivel em `/opt/homebrew/bin/python3` |
 | Git | Disponivel em `/usr/bin/git` |
 | Docker | Disponivel em `/usr/local/bin/docker` |
+| Nmap | Disponivel em `/opt/homebrew/bin/nmap` |
+| Wireshark | Instalado via Homebrew Cask em `/opt/homebrew/Caskroom/wireshark-app/4.6.6/Wireshark.app` |
+| Burp Suite Community | Instalado em `/Applications/Burp Suite Community Edition.app` |
 | Espaco livre medido | Aproximadamente 103 GiB |
 
 ## Decisao de Ambiente
@@ -58,13 +61,32 @@ Ja disponiveis:
 - [x] Python 3.
 - [x] Git.
 - [x] Docker CLI.
+- [x] Nmap.
+- [x] Wireshark.
+- [x] Burp Suite Community.
 
 A validar ou instalar nas proximas tarefas:
 
-- [ ] Nmap.
-- [ ] Wireshark.
-- [ ] Burp Suite Community.
 - [ ] Editor de codigo.
+
+## Versoes Validadas
+
+Validado em 2026-06-14:
+
+| Ferramenta | Versao / Status |
+| --- | --- |
+| Python | 3.14.6 |
+| Git | 2.50.1 |
+| Nmap | 7.99 |
+| Wireshark | 4.6.6 |
+| Burp Suite Community | Instalado |
+
+## Uso Inicial das Ferramentas
+
+- Nmap sera usado apenas contra alvos locais, labs proprios ou ambientes com autorizacao explicita.
+- Wireshark sera usado para observar trafego local e de labs, evitando captura de redes de terceiros.
+- Burp Suite Community sera usado inicialmente com labs web autorizados, como Juice Shop ou alternativas equivalentes.
+- Python e Git serao usados para criar ferramentas pequenas, registrar evidencias e versionar relatorios.
 
 ## Comandos de Validacao
 
@@ -90,6 +112,24 @@ Git:
 
 ```bash
 git --version
+```
+
+Nmap:
+
+```bash
+nmap --version
+```
+
+Wireshark:
+
+```bash
+/opt/homebrew/Caskroom/wireshark-app/4.6.6/Wireshark.app/Contents/MacOS/Wireshark --version
+```
+
+Burp Suite Community:
+
+```bash
+ls "/Applications/Burp Suite Community Edition.app"
 ```
 
 Docker:
@@ -139,4 +179,3 @@ macOS nativo + Python + Git + Docker pontual + labs online
 ```
 
 Essa configuracao e suficiente para avancar no roadmap sem comprometer armazenamento.
-

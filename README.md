@@ -38,6 +38,8 @@ O ambiente principal e um Mac com 256 GB de armazenamento. Por isso, este roadma
 A estrategia detalhada esta documentada em:
 
 - [lab/storage-strategy.md](./lab/storage-strategy.md)
+- [lab/lab-setup.md](./lab/lab-setup.md)
+- [lab/ethics-and-scope.md](./lab/ethics-and-scope.md)
 
 ## Roadmap
 
@@ -89,6 +91,7 @@ python3 study-harness/study.py log "O que foi feito e aprendido"
 ├── README.md
 ├── cybersecurity-roadmap.md
 ├── lab/
+│   ├── ethics-and-scope.md
 │   ├── lab-setup.md
 │   └── storage-strategy.md
 └── study-harness/
