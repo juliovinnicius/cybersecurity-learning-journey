@@ -1,0 +1,173 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Laboratorio de Seguranca Leve",
+      "goal": "Montar um ambiente seguro, leve e documentado para praticar.",
+      "project": "cybersecurity-learning-journey",
+      "tasks": [
+        "Criar repositorio cybersecurity-learning-journey",
+        "Definir estrategia de laboratorio leve para Mac com 256 GB",
+        "Configurar Linux, WSL, VM leve ou ambiente equivalente",
+        "Instalar ferramentas essenciais: Wireshark, Burp Suite, Nmap, Python e Git",
+        "Documentar o ambiente em lab-setup.md",
+        "Registrar regras eticas e escopo de testes"
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Scanner Basico de Portas em Python",
+      "goal": "Criar uma ferramenta controlada para entender enumeracao e portas.",
+      "project": "port-scanner-python",
+      "tasks": [
+        "Criar estrutura do projeto",
+        "Implementar conexao TCP com timeout",
+        "Receber host e portas por argumento",
+        "Exibir portas abertas no terminal",
+        "Exportar resultado para JSON ou TXT",
+        "Documentar uso seguro e exemplos no README"
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Juice Shop: Reconhecimento e HTTP",
+      "goal": "Analisar uma aplicacao vulneravel local ou online pela perspectiva de AppSec.",
+      "project": "juice-shop-security-report",
+      "tasks": [
+        "Subir Juice Shop via Docker ou escolher alternativa online",
+        "Configurar Burp Suite Community",
+        "Interceptar requisicoes de login e navegacao",
+        "Mapear endpoints, cookies e headers",
+        "Documentar superficie de ataque inicial",
+        "Criar esqueleto do report.md"
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Juice Shop: Relatorio OWASP",
+      "goal": "Produzir um relatorio tecnico com achados, impacto e recomendacoes.",
+      "project": "juice-shop-security-report",
+      "tasks": [
+        "Identificar pelo menos 3 vulnerabilidades do lab",
+        "Relacionar cada achado ao OWASP Top 10",
+        "Registrar evidencias sem expor dados sensiveis",
+        "Escrever impacto tecnico e de negocio",
+        "Escrever recomendacoes de correcao",
+        "Revisar README e report.md"
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Analisador de Logs SSH: Parser",
+      "goal": "Criar a base de um analisador de logs defensivo.",
+      "project": "ssh-log-analyzer",
+      "tasks": [
+        "Criar estrutura do projeto",
+        "Adicionar logs pequenos de exemplo",
+        "Ler arquivo de log com Python",
+        "Extrair IPs e eventos com regex",
+        "Contar falhas por IP",
+        "Exibir resumo no terminal"
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Analisador de Logs SSH: Deteccao",
+      "goal": "Classificar atividade suspeita e gerar relatorio.",
+      "project": "ssh-log-analyzer",
+      "tasks": [
+        "Definir criterio de brute force",
+        "Classificar IPs por severidade",
+        "Exportar resultado para CSV ou JSON",
+        "Criar report.md com conclusao",
+        "Documentar falsos positivos possiveis",
+        "Revisar README com exemplos"
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Mini SOC: Opcao Leve",
+      "goal": "Estudar fluxo de SOC usando Wazuh se couber, ou plataforma online se for mais leve.",
+      "project": "mini-soc-wazuh-lab",
+      "tasks": [
+        "Verificar espaco disponivel antes de instalar qualquer stack",
+        "Escolher Wazuh local ou lab online",
+        "Definir cenario de autenticacao suspeita",
+        "Gerar ou obter eventos de exemplo",
+        "Registrar plano de investigacao",
+        "Documentar decisao de armazenamento"
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Mini SOC: Investigacao",
+      "goal": "Investigar um alerta e construir linha do tempo.",
+      "project": "mini-soc-wazuh-lab",
+      "tasks": [
+        "Selecionar alerta ou caso de estudo",
+        "Coletar evidencias relevantes",
+        "Montar linha do tempo",
+        "Identificar possiveis IOCs",
+        "Mapear ao MITRE ATT&CK quando aplicavel",
+        "Registrar hipoteses e conclusao"
+      ]
+    },
+    {
+      "week": 9,
+      "title": "Mini SOC: Relatorio de Incidente",
+      "goal": "Transformar a investigacao em relatorio profissional.",
+      "project": "mini-soc-wazuh-lab",
+      "tasks": [
+        "Escrever resumo executivo",
+        "Descrever alerta inicial",
+        "Listar evidencias",
+        "Descrever impacto",
+        "Definir contencao, erradicacao e recuperacao",
+        "Revisar incident-report.md"
+      ]
+    },
+    {
+      "week": 10,
+      "title": "Web Security Header Checker: Implementacao",
+      "goal": "Criar uma ferramenta de AppSec para avaliar headers web.",
+      "project": "web-security-header-checker",
+      "tasks": [
+        "Criar estrutura do projeto",
+        "Fazer requisicao HTTP com Python",
+        "Ler headers da resposta",
+        "Validar HTTPS e headers principais",
+        "Classificar resultado como OK, alerta ou ausente",
+        "Exibir relatorio no terminal"
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Web Security Header Checker: Relatorio",
+      "goal": "Melhorar saida, recomendacoes e documentacao.",
+      "project": "web-security-header-checker",
+      "tasks": [
+        "Adicionar explicacao para cada header",
+        "Adicionar recomendacoes de correcao",
+        "Exportar resultado para JSON ou Markdown",
+        "Criar exemplos no README",
+        "Testar contra ambientes autorizados",
+        "Revisar limitacoes da ferramenta"
+      ]
+    },
+    {
+      "week": 12,
+      "title": "Playbooks e Portfolio",
+      "goal": "Organizar portfolio e materiais para candidatura.",
+      "project": "incident-response-playbooks",
+      "tasks": [
+        "Criar playbook de phishing",
+        "Criar playbook de brute force",
+        "Criar playbook de malware suspeito",
+        "Criar playbook de vazamento de credenciais",
+        "Revisar README dos projetos",
+        "Atualizar curriculo e LinkedIn com projetos"
+      ]
+    }
+  ]
+}
+
